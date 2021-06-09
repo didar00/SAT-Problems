@@ -1,0 +1,16 @@
+(set-option :produce-assignments true)
+(set-logic QF_UF)
+(declare-const P Bool) (declare-const Q Bool) (declare-const R Bool)
+(assert (and (or P (not R)) (or (not Q) (not R)) (or Q (not R)) (or (not P) (not R)) (or R (not R))))
+(check-sat)
+(get-model)
+(exit)
+
+; (model
+;  (define-fun R () Bool
+;    false)
+;  (define-fun Q () Bool
+;    false)
+;  (define-fun P () Bool
+;    false)
+;)

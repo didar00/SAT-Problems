@@ -1,0 +1,41 @@
+sat
+(model 
+  (define-fun z4 () Bool 
+    false)
+  (define-fun t () Bool  
+    false)
+  (define-fun p () Bool  
+    false)
+  (define-fun z1 () Bool 
+    false)
+  (define-fun z7 () Bool 
+    false)
+  (define-fun z5 () Bool 
+    false)
+  (define-fun z3 () Bool 
+    false)
+  (define-fun z11 () Bool
+    true)
+  (define-fun z2 () Bool 
+    false)
+  (define-fun z14 () Bool
+    false)
+  (define-fun s () Bool  
+    false)
+  (define-fun q () Bool  
+    true)
+  (define-fun z9 () Bool 
+    false)
+  (define-fun z8 () Bool 
+    false)
+  (define-fun z12 () Bool
+    true)
+  (define-fun z10 () Bool
+    false)
+  (define-fun z13 () Bool
+    false)
+  (define-fun z6 () Bool
+    false)
+  (define-fun r () Bool
+    true)
+)

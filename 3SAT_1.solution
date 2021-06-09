@@ -1,0 +1,19 @@
+sat
+(model
+  (define-fun z4 () Bool
+    false)
+  (define-fun R () Bool
+    false)
+  (define-fun z3 () Bool
+    false)
+  (define-fun z1 () Bool
+    false)
+  (define-fun Q () Bool
+    false)
+  (define-fun z2 () Bool
+    false)
+  (define-fun P () Bool
+    false)
+  (define-fun z5 () Bool
+    false)
+)
