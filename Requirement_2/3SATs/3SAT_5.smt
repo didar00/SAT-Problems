@@ -8,7 +8,8 @@
 (assert (and 
 (or r p t) 
 (or (not q) (not r) t) 
-(or (not p) (not q) z1) (or (not p) (not q) (not z1)) 
+(or (not p) (not q) z1) 
+(or (not p) (not q) (not z1)) 
 (or p r (not q)) 
 ))
 (check-sat)
